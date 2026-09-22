@@ -2,11 +2,42 @@
 using OOP03.Class;
 using OOP04.Class;
 using OOP04.Interface;
+using System.Diagnostics.Contracts;
+using System;
 
 namespace OOP_2
 {
     internal class Program
     {
+       /* 
+        * Q1 : Abstracyion
+ a) What is Abstraction in Object-Oriented Programming?
+
+Hiding complex implementation details and exposing only essential features to the user
+       (showing what it does, not how).
+
+b) Why is abstraction considered one of the four pillars of OOP?
+
+It reduces system complexity and makes maintenance easier.
+
+Q2: Abstract Classes vs.Interfaces
+
+a) What is the difference between an Abstract Class and an Interface?
+
+Abstract Class: Can contain fields, constructors, and both abstract and implemented methods.
+
+Interface: Defines only method signatures, can't store fields and has no constructors.
+
+b) When would you choose an Interface instead of an Abstract Class?
+
+When defining shared behavior across unrelated classes, or when multiple inheritance is needed.
+
+c) Can a class inherit from multiple abstract classes? Can it implement multiple interfaces?
+
+Multiple abstract classes: No (diamond problem)
+
+Multiple interfaces: Yes.
+       */
         static void Main(string[] args)
         {
 
